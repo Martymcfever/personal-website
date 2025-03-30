@@ -1,0 +1,113 @@
+/* General layout */
+body {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+color: #f5f5f5;
+}
+
+a {
+color: #8a25e9;
+}
+
+a:hover {
+color: #b86fff;
+}
+
+/* Navbar */
+.navbar {
+background-color: #121212 !important;
+}
+
+.navbar-brand,
+.nav-link {
+color: #f5f5f5 !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+color: #8a25e9 !important;
+}
+
+/* Cards / Sections */
+.card {
+background-color: #2a2a2a;
+border: none;
+border-radius: 1rem;
+color: #f5f5f5;
+}
+
+.card-title {
+color: #ffffff;
+}
+
+/* Buttons */
+.btn-primary {
+background-color: #8a25e9;
+border-color: #8a25e9;
+}
+
+.btn-primary:hover {
+background-color: #a445f0;
+border-color: #a445f0;
+}
+
+.btn-outline-secondary {
+border-color: #cccccc;
+color: #cccccc;
+}
+
+.btn-outline-secondary:hover {
+background-color: #8a25e9;
+border-color: #8a25e9;
+color: white;
+}
+
+/* Skill badges */
+.badge {
+font-size: 0.9rem;
+padding: 0.5em 0.75em;
+}
+
+/* Badge Color Variants */
+.bg-code {
+    background-color: #444 !important;
+}
+
+.bg-db {
+    background-color: #287b9a !important;
+}
+
+.bg-framework {
+    background-color: #8a25e9 !important;
+    color: #fff !important;
+}
+
+.custom-footer {
+background-color: #121212;
+color: #cccccc;
+border-top: 1px solid #333;
+}
+
+/* Transition Animations */
+.fade-container {
+opacity: 0;
+transform: translateX(50px);
+transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-container.loaded {
+opacity: 1;
+transform: translateX(0);
+}
+
+.fade-out {
+opacity: 0;
+transform: translateX(-50px);
+transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+
